@@ -1,0 +1,27 @@
+<i class="bi mobile-nav-toggle d-inline-flex d-lg-none" (click)="toggle()" [ngClass]="show ? 'bi-x' : 'bi-list'"></i>
+
+<header id="header" [@hideShow]="show ? 'shown' : 'hide'">
+  <div class="d-flex flex-column">
+
+    <div class="profile">
+      <img src="../../../assets/img/profile.jpg" alt="" class="img-fluid rounded-circle">
+      <h1 class="text-light"><a href="index.html">Alexey Plotnikov</a></h1>
+      <div class="social-links mt-3 text-center">
+        <a href="mailto:mr.plotnikov@gmail.com" class="envelope"><i class="bi bi-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/plotnikov-alexey/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/alexey-plotnikoff" class="linkedin" target="_blank"><i class="bx bi-github"></i></a>
+      </div>
+    </div>
+
+    <nav id="navbar" class="nav-menu navbar">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#skills" class="nav-link scrollto"><i class="bx bi-gear"></i> <span>Skills</span></a></li>
+        <li><a href="#career" class="nav-link scrollto"><i class="bx bi-briefcase"></i> <span>Experience</span></a></li>
+        <li><a href="#education" class="nav-link scrollto"><i class="bx bi-book"></i> <span>Education</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>resume</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+  </div>
+</header>

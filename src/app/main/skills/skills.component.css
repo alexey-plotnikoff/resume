@@ -1,0 +1,22 @@
+.skills a {
+  background-color: #173b6c;
+  color: white;
+  padding: 3px 7px;
+  border-radius: 7px;
+  margin: 0.1em 0.25em;
+  display: inline-block;
+}
+
+.skills div.row {
+  margin: 0.5em 0;
+}
+
+.skills div.row>div:first-child {
+  text-align: right;
+}
+
+@media (max-width: 992px) {
+  .skills div.row>div:first-child {
+    text-align: left;
+  }
+}

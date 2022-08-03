@@ -1,0 +1,13 @@
+#header {
+  left: -300px;
+}
+
+#main {
+  margin-left: 0;
+}
+
+@media (min-width: 992px) {
+  #main {
+    margin-left: 300px;
+  }
+}
