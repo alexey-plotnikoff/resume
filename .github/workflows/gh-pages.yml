@@ -23,9 +23,10 @@ jobs:
 
       - name: Setup
         run: npm ci
+        run: npm install -g @angular/cli
 
       - name: Build
-        run: npm run build --omit=dev
+        run: ng build
 
       - name: Test
         run: |
