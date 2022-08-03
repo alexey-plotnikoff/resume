@@ -2,7 +2,7 @@ name: Builad and Deploy GitHub Pages
 
 on:
   push:
-    branches: [ "main", "github-actions" ]
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
