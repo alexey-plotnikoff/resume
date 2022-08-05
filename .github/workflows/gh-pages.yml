@@ -28,7 +28,7 @@ jobs:
         run: npm install -g @angular/cli
 
       - name: Build
-        run: ng build --base-href https://alexey-plotnikoff.github.io/resume/
+        run: ng build --base-href https://www.plotnikov.am
 
       - name: Test
         run: |
