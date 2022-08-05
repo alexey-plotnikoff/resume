@@ -34,6 +34,9 @@ jobs:
         run: |
           ng test --watch=false --browsers=ChromeHeadless
 
+      - name: copy CNAME
+        run: cp CNAME dist/resume
+
       - name: Deploy
         if: success()
         uses: peaceiris/actions-gh-pages@v3
